@@ -1,0 +1,31 @@
+/* Estilos para los filtros */
+#post-filters {
+    margin-bottom: 20px;
+}
+
+#post-filters button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #0073aa;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#post-filters button:hover {
+    background-color: #005177;
+}
+
+/* Estilos para la cuadrícula de posts */
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.post-grid-item {
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
